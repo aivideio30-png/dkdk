@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "particle_arcana",
+  "version": "${version}",
+  "name": "Particle Arcana",
+  "description": "Trigonometry, vector math and particles only: sword wave, telekinesis, time stop. No models or textures.",
+  "authors": ["Claude"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.arcana.ArcanaMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
